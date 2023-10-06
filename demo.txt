@@ -17,24 +17,21 @@ Variables are needed to store and manage data during program execution, enabling
 
 Variable Declaration and Initialization:
 ====================================
+<scope Statments><varible Name>;
 
 Declaration: Variables declared with var are hoisted to the top of their scope during the compilation phase.
 var x;
 ===============
 Assignment: Values can be assigned to var variables later in the code.
+<varible Name>=<data>
 
 x = 10;
 ===================
 Initialization: Both declaration and assignment can be done in one step.
+<scopeName><varible Name>=<data>
 
 ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
 var y = 20;
-
-
-
-
-
-
 
 
 Data Types in JavaScript:
@@ -43,11 +40,28 @@ JavaScript has primitive and non-primitive data types.
 =============================
 Primitive Data Types: number, string, boolean, bigint, undefined, null, symbol.
 ===================================================
+ String to Number:
+let stringValue = "123";
+let numberValue = +stringValue; // Converts string to number
+
+parseInt() can be used to parse a string and return an integer.
+let stringValue = "456";
+let numberValue = parseInt(stringValue); // Converts string to integer
+
+The String() constructor can be used to convert a number to a string.
+let stringValue = "456.78";
+let numberValue = parseFloat(stringValue); // Converts string to float
+
+boolean suppose undefined,null,0 is false
+boolean suppose 1 to 100 or 'subham is value 1
+
 Non-Primitive Data Type: object.
 ================================
 Difference Between Primitive and Non-Primitive Data Types:
-Primitive data types are immutable, meaning their values cannot be changed directly. but reassgined poosivke
-                     =============                       =========================
+
+
+Primitive data types are immutable, meaning their values cannot be changed directly. but reassgined value
+                         ==========                       =========================
 Non-primitive data types (objects) are mutable, and their values can be modified.
 ==================                    ==========                  ==============
 Special Values:
@@ -56,6 +70,29 @@ Special values: null and undefined.
 =====================
 null is considered an object in JavaScript.
 ==========================
+
+in javaript null value is considered is object
+special value called primitive type
+null ======> object ======> primitive type ===>under come null type
+any data 2 power 53-1 is coming bigint type
+symbool() any type of data sum() constructor come under sumboll type
+
+
+object
+when ever any kind varible if we are assgined object or array that come under object type
+var id={};//intalization varible
+var data=[abc]//
+
+
+
+
+syllabus
+
+
+
+
+
+
 
 
 //functions
