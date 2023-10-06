@@ -1,104 +1,61 @@
-varibles in javaript 
----------------------------------
+Definition of Variables:
 varible are the refrences which points to memory location
+Questions:
+============================================================
+What is a variable?
 
+A variable is a reference that points to a memory location to store and retrieve data during program execution.
+What is a program?
 
-why do we required varible
-varible are required to store the data in the memory while exectuting program,so that we can utilise the data to do some action or after exectuting the program ,we might required to sore some output
+A program is a set of instructions or a sequence of code that performs a specific task when executed.
+What is a process?
 
-what is varible?
-what is program?
-what is Process
-Why do you want varibles in the progrmas?
+A process is the execution of a program in a computer system. It involves the program's code being loaded into memory and its instructions being executed.
+Why do we need variables in programs?
 
-how to create a varibles in javaript ?
-scope Statments
-var and let and const 
+Variables are needed to store and manage data during program execution, enabling the program to perform operations and produce output.
 
-syntax:
-=======
-declared in any kind varibles or else (varible declarzation)
-we just created one varible inside a ram one bucket are created this bucket some created some address .out this varible point they address
+Variable Declaration and Initialization:
+====================================
 
-syntax
-======
-
-<scope Statments><varible Name>;
+Declaration: Variables declared with var are hoisted to the top of their scope during the compilation phase.
 var x;
-let name;
+===============
+Assignment: Values can be assigned to var variables later in the code.
 
-assigned any kind value 
-<varible Name>=<data>
-x=10
+x = 10;
+===================
+Initialization: Both declaration and assignment can be done in one step.
 
-intalization varible
-<scopeName><varible Name>=<data>
-var x=10;
-
-
-
-/////////////////////=====================================
-this data type totoally are divided 8 data type
-primitive data type and non primitive data type
-out of 8 is 7 is coming primitve data type 
-primitive data type 7 =>number,string,boolean,bigint,undefine,symbool
-non primitive data type 1 =>object
-
-can u least out all type of data type are their
-can u tell me list our all primitive data type 
-can u tell me list out all non primitve data type 
-what is differnce btwn primive data type non promitive data type ;
-they are totoally 8 type of data type 
-all they 8 types data type divide two category
-primitive and non primitive
-prmitive 
-=========
-out of of seven data type is primitive data type
-string number boolean bigint symbool ,undefine,null
-all this above 7 data types are inbuilt data types in javasript are primive data immutable is 
-immutable is means we cant change data
-we can assigned ressgined data like 
-var data=10;
-<scope Name><data name>=<DATA>
-data is fixed  but we can  assigned value 
-
-==================
-non primitive
-object =>Data type which is derived from primitive data type is called non-primitive data type
-data whose value can be modifed non primitive data type are mutable data types.
-mutable value 
-we can change value or  re assgined value
-
-
-=================
-datatype
-================
-typeof is one type operator identify any varible
-in javasript two special value
-1.> null 
-2.> undefine
-why null value datatype of null is object
-in javaript null value is considered is object
-special value called primitive type
-null ======> object ======> primitive type ===>under come null type
-any data 2 power 53-1 is coming bigint type
-symbool() any type of data sum() constructor come under sumboll type
-
-oop 
-| class,object,constructor
-
-
-object
-when ever any kind varible if we are assgined object or array that come under object type
-var id={};//intalization varible
-var data=[abc]//
-both are object
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+var y = 20;
 
 
 
 
 
 
+
+
+Data Types in JavaScript:
+=======================================
+JavaScript has primitive and non-primitive data types.
+=============================
+Primitive Data Types: number, string, boolean, bigint, undefined, null, symbol.
+===================================================
+Non-Primitive Data Type: object.
+================================
+Difference Between Primitive and Non-Primitive Data Types:
+Primitive data types are immutable, meaning their values cannot be changed directly. but reassgined poosivke
+                     =============                       =========================
+Non-primitive data types (objects) are mutable, and their values can be modified.
+==================                    ==========                  ==============
+Special Values:
+typeof operator is used to identify the type of a variable.
+Special values: null and undefined.
+=====================
+null is considered an object in JavaScript.
+==========================
 
 
 //functions
@@ -124,7 +81,6 @@ for
 for of
 for in
 
-basic of javascript
 
 
 
